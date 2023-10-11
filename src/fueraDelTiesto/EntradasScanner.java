@@ -1,6 +1,6 @@
 package fueraDelTiesto;
 
-import java.time.Year;
+
 import java.util.Scanner;
 
 public class EntradasScanner {

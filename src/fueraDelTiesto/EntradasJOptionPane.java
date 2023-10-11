@@ -1,7 +1,6 @@
 package fueraDelTiesto;
 
 import javax.swing.JOptionPane;
-import javax.xml.transform.Templates;
 
 public class EntradasJOptionPane {
 

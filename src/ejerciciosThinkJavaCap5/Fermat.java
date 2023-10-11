@@ -8,7 +8,7 @@ public class Fermat {
 		int c = 1;
 		int n = 1;
 
-		if ((checkFermat(0, b, c, n)) && n > 2)
+		if ((checkFermat(a, b, c, n)) && n > 2)
 			System.out.println("Holy smokes, Fermat was wrong!");
 		else
 			System.out.println("No, that doesn’t work.");
