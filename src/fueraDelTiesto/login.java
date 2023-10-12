@@ -37,8 +37,8 @@ public class login {
 			} // while
 		} // if
 		if (isPasswordCorrect)
-			System.out.println("estas dentro");
+			JOptionPane.showMessageDialog(null, "Estas dentro");
 		else
-			System.out.println("a tomar por culo");
+			JOptionPane.showMessageDialog(null, "A tomar por culo, imbecil \nA tomar por culo, imbecil \nA tomar por culo, imbecil \nA tomar por culo, imbecil \nA tomar por culo, imbecil");
 	}// main
 }// login
