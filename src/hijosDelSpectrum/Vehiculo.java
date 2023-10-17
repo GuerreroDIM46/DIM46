@@ -19,7 +19,7 @@ public class Vehiculo {
 	
 	public Vehiculo(String modelo, String color) {
     this.modelo = modelo;
-    this.color = color;
+    setColor(color);
 }
 
 	@Override

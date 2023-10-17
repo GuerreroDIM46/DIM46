@@ -2,6 +2,8 @@ package hijosDelSpectrum;
 
 public class Moto extends VehiculoConRuedas {
 // extendes porque hereda de vehiculo con ruedas
+	
+	
 	public Moto(String modelo, String color) {
 		super(modelo, color);  // el constructor de vehiculo con ruedas
 		// TODO Auto-generated constructor stub
