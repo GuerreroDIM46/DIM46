@@ -3,9 +3,14 @@ package tickets;
 public class Expendedor {
 	private int minimo = 0;
 	private int maximo = 99;
+	int ultimoGenerado = minimo;
 	
 	public Turno generarTurno() {
-		return new Turno();
-		
+		if (ultimoGenerado > maximo) {
+		ultimoGenerado = minimo;	
+		}
+		return new Turno(ultimoGenerado++);
+
+
 	}
 }

@@ -6,4 +6,15 @@ public class Turno {
 	public int getNumero() {
 		return numero;
 	}
+	
+	public Turno(int numero) {
+		this.numero = numero;
+	}
+
+	@Override
+	public String toString() {
+		return "Turno [numero=" + numero + "]";
+	}
+	
+	
 }
