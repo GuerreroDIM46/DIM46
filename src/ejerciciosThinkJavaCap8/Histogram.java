@@ -7,8 +7,8 @@ import pruebas.demo;
 public class Histogram {
 
 	public static void main(String[] args) {
-		int numValues = 600;
-		int maximoValor = 40;
+		int numValues = 300;
+		int maximoValor = 20;
 		int[] array = randomArray(numValues, maximoValor);
 		printArray(array);
 		int[] histogram = histogram(array, maximoValor);
