@@ -1,6 +1,6 @@
 package hijosDelSpectrum;
 
-public class Coche extends VehiculoConRuedas {
+public class Coche extends VehiculoConRuedas implements Arrancable{
 	private int numeroDeRuedas;
   private String matricula;
 
@@ -65,4 +65,10 @@ public class Coche extends VehiculoConRuedas {
 				return numeroDeRuedas;
 	}
 	// reescritura del get numeor de ruedas
+
+//	@Override
+//	public void arrancar() {
+//		System.out.println("coche arrancado");
+//		
+//	}
 }
