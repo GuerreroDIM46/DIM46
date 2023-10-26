@@ -4,7 +4,7 @@ public class Coche extends VehiculoConRuedas implements Arrancable{
 	private int numeroDeRuedas;
   private String matricula;
 
-	void setMatricula(String matricula) {
+	public void setMatricula(String matricula) {
     this.matricula = matricula;
 }
   
